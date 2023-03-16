@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "920253021088",
+    "project_id": "login-page-a6851",
+    "storage_bucket": "login-page-a6851.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920253021088:android:a50cafac6ccb00751a82c5",
+        "android_client_info": {
+          "package_name": "com.example.dcs_task_login_page"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920253021088-5ah0rsoi5ku760klv9lg89qjuk59m7go.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFfpKzsqdr0E44AaTnFbkSHGyWZ6jagBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920253021088-5ah0rsoi5ku760klv9lg89qjuk59m7go.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
