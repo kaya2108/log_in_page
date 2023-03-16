@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     startActivity(new Intent(MainActivity.this,MainActivity2.class));
                 }
                 else{
-                    progressBar.setVisibility(View.VISIBLE);
+                    progressBar.setVisibility(View.GONE);
                     Toast.makeText(getApplicationContext(), "Wrong email or password", Toast.LENGTH_SHORT).show();
 
                 }

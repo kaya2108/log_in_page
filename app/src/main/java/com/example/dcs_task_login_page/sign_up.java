@@ -95,19 +95,18 @@ public class sign_up extends AppCompatActivity implements View.OnClickListener{
                                         @Override
                                         public void onComplete(@NonNull Task<Void> task) {
                                             if(task.isSuccessful()){
-                                                progressBar.setVisibility(View.VISIBLE);
                                                 Toast.makeText(sign_up.this, "User has been registered successfully",Toast.LENGTH_SHORT).show();
                                                 startActivity(new Intent(sign_up.this, MainActivity.class));
                                                 Toast.makeText(sign_up.this, "Log in again",Toast.LENGTH_SHORT).show();
                                             }else{
-                                                progressBar.setVisibility(View.VISIBLE);
+                                                progressBar.setVisibility(View.GONE);
                                                 Toast.makeText(sign_up.this,"Failed to register! Try again!", Toast.LENGTH_SHORT).show();
                                             }
                                         }
                                     });
                         }
                         else{
-                            progressBar.setVisibility(View.VISIBLE);
+                            progressBar.setVisibility(View.GONE);
                             task.getException().getMessage();
                             Toast.makeText(sign_up.this, "User already exists.",Toast.LENGTH_SHORT).show();
                         }

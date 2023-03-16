@@ -25,7 +25,9 @@
         android:hint="Enter email"
         android:imeOptions="actionNext"
         android:inputType="text"
-        android:maxLines="1"/>
+        android:maxLines="1"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"/>
 
     <EditText
         android:id="@+id/password"
@@ -37,7 +39,9 @@
         android:hint="Enter Password"
         android:imeOptions="actionDone"
         android:inputType="textPassword"
-        android:maxLines="1"/>
+        android:maxLines="1"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"/>
 
     <Button
         android:id="@+id/sign__up"

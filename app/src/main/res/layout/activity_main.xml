@@ -25,7 +25,9 @@
         android:text=""
         android:imeOptions="actionNext"
         android:inputType="text"
-        android:maxLines="1"/>
+        android:maxLines="1"
+        android:textColorHint="@color/material_dynamic_secondary50"
+        android:textColor="@color/material_dynamic_secondary50"/>
 
     <EditText
         android:id="@+id/password"
@@ -39,7 +41,9 @@
         app:passwordToggleEnabled="true"
         android:imeOptions="actionDone"
         android:inputType="textPassword"
-        android:maxLines="1" />
+        android:maxLines="1"
+        android:textColorHint="@color/material_dynamic_secondary50"
+        android:textColor="@color/material_dynamic_secondary50"/>
 
     <Button
         android:id="@+id/login"
